@@ -301,6 +301,35 @@ footer .contact-info {
         outline: 1px solid red;
     }
 
+    .statistics h3 {
+    font-size: 20px;
+    }
+
+    .statistics h2 {
+    font-size: 32px;
+    margin-top: 18px;
+    }
+
+    .statistics-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 75px  30px;
+    }
+
+.statistics-icon .icon .fa-solid {
+    font-size: 35px;
+    padding-bottom: 20px;
+    }
+
+    .statistics-icon .icon p {
+    font-size: 20px;
+    }
+
+    .statistics-icon .icon .number {
+    font-size: 22px;
+    font-weight: 500;
+    }
+
     .pride {
         flex-direction: column;
     }
@@ -311,5 +340,44 @@ footer .contact-info {
 
     .pride .pride-card {
         width: 100%;
+    }
+
+}
+
+@media (max-width: 810px) {
+    .hero .tiles {
+        display: none;
+    }
+}
+
+@media (max-width: 740px) {
+    
+    nav .left-side img {
+        margin-left: 20px;
+    }
+
+    .hero {
+    height: 500px;
+    margin-top: 100px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+    
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    footer .upper-footer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .quick-links {
+        text-align: left;
     }
 }
