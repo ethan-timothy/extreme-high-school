@@ -4,6 +4,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Poppins' sans-serif;
+    list-style: none;
 }
 
 nav {
@@ -348,6 +349,10 @@ footer .contact-info {
     .hero .tiles {
         display: none;
     }
+
+    .hero h1 {
+        font-size: 60px;
+    }
 }
 
 @media (max-width: 740px) {
@@ -372,12 +377,41 @@ footer .contact-info {
         font-size: 20px;
     }
 
+    .statistics-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .statistics-icon .fa-solid {
+        padding-bottom: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
     footer .upper-footer {
         flex-direction: column;
         gap: 40px;
     }
+}
 
-    .quick-links {
-        text-align: left;
+@media(max-width: 540px) {
+    nav {
+        height: 85px;
+    }
+
+    .hero {
+        margin-top: 80px;
+    }
+    
+    nav .left-side img {
+        width: 70px;
+        margin-left: 0;
+    }
+
+    .hero h1 {
+        font-size: 33px;
     }
 }
